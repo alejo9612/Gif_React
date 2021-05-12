@@ -14,7 +14,7 @@ export const useFetchGifs = (categoria) => {
     //creamos el useEffect para manejar el efecto que le daremos a nuestro objeto del useState
     useEffect(() => {
         getGif(categoria)
-            .then(imgs =>{
+            .then(imgs =>{  
                 setstate({
                     data:imgs,
                     loading: false
