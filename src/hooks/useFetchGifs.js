@@ -8,7 +8,7 @@ export const useFetchGifs = (categoria) => {
     //creamos el useState para crear el objeto que majearemos con la información que requerimos
     const [state, setstate] = useState({
         data: [],
-        loading: true
+        loading: truecls
     });
     
     //creamos el useEffect para manejar el efecto que le daremos a nuestro objeto del useState
